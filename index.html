@@ -11,22 +11,80 @@
     <title>Entrega Bootstrap</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <div class="header">
-
-
-
+            <nav class="nav1 navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">Indumentaria Mez</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Conjuntos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Essentials</a></li>
+                          <li><a class="dropdown-item" href="#">Streetwear</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Formal</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </div>
         <div class="main">
-
-
-
+            <div class="card" style="width: 18rem;">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/justin-bieber-is-seen-on-february-9-2021-in-los-angeles-news-photo-1613045002.?resize=480:*" class="card-img-top" alt="Essentials">
+                <div class="card-body">
+                  <h5 class="card-title">Essentials</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <a href="#" class="btn btn-primary">Más información</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://img.freepik.com/foto-gratis/hombre-ropa-formal-elegante-taza-bebida-bloc-notas-manos-afuera-contra-edificio-moderno-tiene-conversacion-telefono_146671-29062.jpg" class="card-img-top" alt="Formal">
+                <div class="card-body">
+                  <h5 class="card-title">Formal</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, deserunt.</p>
+                  <a href="#" class="btn btn-primary">Más información</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://i8.amplience.net/i/jpl/trends-22-cargo-02-9bedd29e2c8a2bcb7adaea16798c7d52" class="card-img-top" alt="Streetwear">
+                <div class="card-body">
+                  <h5 class="card-title">Streetwear</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos alias reiciendis id.</p>
+                  <a href="#" class="btn btn-primary">Más información</a>
+                </div>
+              </div>
         </div>
         <div class="footer">
-
-
-
-        </div>
+            <div class="divFooter1">
+              <p class="indFooter">Indumentaria Mez</p>
+              <p>Te vestis bien, te ven bien.</p>
+            </div>
+            <div>
+              <p class="redes">Redes sociales</p>
+              <p>Instagram</p>
+              <p>Facebook</p>
+              <p>Whatsapp</p>
+            </div>
+          </div>
     </div>
     <!-- LINK BOOTSTRAP JS SIEMPRE ARRIBA DE ETIQUETA DE CIERRE BODY-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
